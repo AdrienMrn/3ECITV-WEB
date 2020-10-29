@@ -1,0 +1,25 @@
+h1, h2 {
+	font-family: Arial; 
+	font-size: 25px;
+	color: white;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.bg-color-primary {
+	background-color: blue;
+}
+
+.text-color-primary {
+	color: blue;
+}
+
+.bg-color-secondary {
+	background-color: pink;
+}
+
+.text-color-secondary {
+	color: pink;
+}
