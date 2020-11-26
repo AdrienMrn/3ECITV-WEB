@@ -8,19 +8,35 @@ body {
 }
 
 .card {
+	position: relative;
 	float: left;
 	width: 30%;
+	height: 300px;
 	margin: 1.666%;
+	box-shadow: 8px 8px 10px rgba(1, 1, 1, 0.5);
 }
 
 .card .card-img img {
 	width: 100%;
+	height: 300px;
+	object-fit: cover;
 }
 
 .card .card-content {
-	position: relative;
-	height: 20px;
-	background-color: rgba(255, 255, 255, 0.8);
-	bottom: 40px;
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	bottom: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.card .card-content p {
 	padding: 10px;
+	margin: 0;
+}
+
+a:visited {
+	text-decoration: none;
 }
